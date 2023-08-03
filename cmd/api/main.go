@@ -19,5 +19,5 @@ func main() {
 	router.GET("/transaction", a.TransactionHandler)
 	router.POST("/transaction", handlers.CreateTransactionHandler)
 
-	router.Run(":8082")
+	router.Run(":8080")
 }
